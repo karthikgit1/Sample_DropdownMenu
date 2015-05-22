@@ -15,6 +15,7 @@
 		26A138D51AFB8D9A008300A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A138D41AFB8D9A008300A1 /* Images.xcassets */; };
 		26A138D81AFB8D9A008300A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A138D61AFB8D9A008300A1 /* LaunchScreen.xib */; };
 		26A138E41AFB8D9A008300A1 /* DropDown_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A138E31AFB8D9A008300A1 /* DropDown_ExampleTests.m */; };
+		26A138EF1AFB8E0E008300A1 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A138ED1AFB8E0E008300A1 /* NIDropDown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		26A138DD1AFB8D9A008300A1 /* DropDown_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDown_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A138E21AFB8D9A008300A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26A138E31AFB8D9A008300A1 /* DropDown_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDown_ExampleTests.m; sourceTree = "<group>"; };
+		26A138ED1AFB8E0E008300A1 /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDropDown.m; sourceTree = "<group>"; };
+		26A138EE1AFB8E0E008300A1 /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDropDown.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		26A138C31AFB8D99008300A1 /* DropDown_Example */ = {
 			isa = PBXGroup;
 			children = (
+				26A138EE1AFB8E0E008300A1 /* NIDropDown.h */,
+				26A138ED1AFB8E0E008300A1 /* NIDropDown.m */,
 				26A138C81AFB8D9A008300A1 /* AppDelegate.h */,
 				26A138C91AFB8D9A008300A1 /* AppDelegate.m */,
 				26A138CE1AFB8D9A008300A1 /* ViewController.h */,
@@ -224,6 +229,7 @@
 			files = (
 				26A138CA1AFB8D9A008300A1 /* AppDelegate.m in Sources */,
 				26A138CD1AFB8D9A008300A1 /* DropDown_Example.xcdatamodeld in Sources */,
+				26A138EF1AFB8E0E008300A1 /* NIDropDown.m in Sources */,
 				26A138D01AFB8D9A008300A1 /* ViewController.m in Sources */,
 				26A138C71AFB8D9A008300A1 /* main.m in Sources */,
 			);
@@ -350,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DropDown_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DropDown_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

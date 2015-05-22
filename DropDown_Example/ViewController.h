@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NIDropDown.h"
+@interface ViewController : UIViewController<NIDropDownDelegate>
 
-@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *btn1;
+@property (weak, nonatomic) IBOutlet UIButton *btn2;
 
+@property (weak, nonatomic) NIDropDown *dropDown;
 
+- (IBAction)btnAction:(id)sender;
+
+- (IBAction)btn2Action:(id)sender;
+
+-(void)rel;
 @end
 
